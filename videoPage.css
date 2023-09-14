@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+  }
+  header{
+    position:sticky;
+    top:0px;
+    background-color: black;
+    z-index: 1;
+    height:10vh;
+  }
+  .card-img{
+    height:85%;
+  }
+  
+  .card{
+    overflow: hidden;
+    font-size: small;
+    color: white;
+    
+  }
+  
+  .card-title{
+    font-size:14px;
+  }
+  #side-icons > img {
+    margin: 0px 8px;
+    cursor: pointer;
+  }
+
+#search-bar > input {
+    width: 350px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+  }
+  #search-bar > button {
+    margin-left: -5px;
+    margin-top: -5px;
+  }
+  #search-button {
+    background-color: gray;
+    border: none;
+    transition: all linear 1s;
+  }
+  
+  #search-button > img {
+    background-color: gray;
+  }
+  .video-player{
+   
+    width:45vw;
+   
+   color: white;
+    margin-left: 15vw;
+    margin-right:10vw;
+  }
+
+  ::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(70, 70, 72);
+
+    border-radius: 5px;
+}
+.videoplayer-line{
+    border-bottom:0.1px ridge rgb(45, 39, 39);
+}
+.comments-dur{
+    font-size: 13px;
+}
+#channel-logo{
+  height: 50px;
+  width: 50px;
+}
+.suggestions{
+  align-items: stretch;
+  height:100dvh;
+  
+  
+}
+.suggestions > .card{
+  max-width: 540px;
+  cursor: pointer;
+}
+.card-img{
+  transition: 0.3s linear;
+}
+.card-img:hover{
+  
+  scale: 110%;
+}
+.card-text-2{
+  margin-top:-13px;
+}
+.reply-header{
+  cursor:pointer;
+  color:rgb(13, 169, 200)
+}
+.small-replies>img{
+  height:30px;
+  width:40px;
+}
+.small-replies{
+  font-size: 14px;
+
+}
+#sugg-header{
+  background-image: linear-gradient(to right ,  rgb(101, 101, 88) ,rgb(247, 128, 128) , rgb(101,101,88));
+  font-style: italic;  
+  
+}
